@@ -22,7 +22,7 @@ class BottleNeck(nn.Module):
         '''
         :param in_planes: input channel
         :param out_planes: output channel
-        :param text_feature_shape: the shape of text_feature to be fused
+        :param clinical_feature_shape: the shape of text_feature to be fused
         :param stride:
         :param expansion: default 4
         :param downsampling: whether residual block need to be downsampled
